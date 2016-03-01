@@ -1,0 +1,142 @@
+Applications Memory Usage (kB):
+Uptime: 2186778 Realtime: 2186778
+
+Total PSS by process:
+    57137 kB: system (pid 540)
+    50192 kB: com.android.systemui (pid 638)
+    32875 kB: com.movie.movieticketbooking (pid 1733 / activities)
+    25730 kB: com.android.launcher3 (pid 892 / activities)
+    22538 kB: com.google.samples.apps.iosched (pid 1559)
+    19947 kB: local_opengl (pid 260)
+    18048 kB: com.android.phone (pid 883)
+    17744 kB: zygote (pid 111)
+    11806 kB: mediaserver (pid 106)
+    11147 kB: android.process.acore (pid 942)
+    10398 kB: com.android.inputmethod.latin (pid 855)
+     7069 kB: com.android.deskclock (pid 1035)
+     6266 kB: com.android.gallery3d (pid 1499)
+     4811 kB: com.android.defcontainer (pid 1475)
+     4723 kB: com.android.quicksearchbox (pid 1538)
+     4697 kB: com.android.musicfx (pid 1426)
+     4676 kB: com.android.keychain (pid 1695)
+     4153 kB: com.android.smspush (pid 1071)
+     4078 kB: com.svox.pico (pid 1525)
+     1956 kB: logd (pid 81)
+     1928 kB: genybaseband (pid 109)
+     1655 kB: surfaceflinger (pid 257)
+     1627 kB: drmserver (pid 105)
+     1472 kB: genyd (pid 99)
+     1269 kB: wpa_supplicant (pid 610)
+     1186 kB: sdcard (pid 622)
+     1093 kB: vold (pid 83)
+     1036 kB: netd (pid 102)
+      772 kB: adbd (pid 114)
+      693 kB: keystore (pid 108)
+      655 kB: rild (pid 104)
+      598 kB: /init (pid 1)
+      583 kB: gatekeeperd (pid 112)
+      504 kB: healthd (pid 253)
+      482 kB: sh (pid 1608)
+      474 kB: sh (pid 101)
+      418 kB: logcat (pid 1623)
+      404 kB: installd (pid 107)
+      390 kB: logcat (pid 1842)
+      386 kB: ueventd (pid 64)
+      368 kB: perfprofd (pid 113)
+      324 kB: lmkd (pid 255)
+      316 kB: debuggerd (pid 103)
+      310 kB: servicemanager (pid 256)
+      259 kB: vinput (pid 258)
+      257 kB: vinput_seamless (pid 259)
+      256 kB: logwrapper (pid 100)
+      255 kB: local_gps (pid 261)
+      255 kB: local_camera (pid 262)
+      255 kB: local_camera (pid 263)
+
+Total PSS by OOM adjustment:
+    71933 kB: Native
+               19947 kB: local_opengl (pid 260)
+               17744 kB: zygote (pid 111)
+               11806 kB: mediaserver (pid 106)
+                1956 kB: logd (pid 81)
+                1928 kB: genybaseband (pid 109)
+                1655 kB: surfaceflinger (pid 257)
+                1627 kB: drmserver (pid 105)
+                1472 kB: genyd (pid 99)
+                1269 kB: wpa_supplicant (pid 610)
+                1186 kB: sdcard (pid 622)
+                1093 kB: vold (pid 83)
+                1036 kB: netd (pid 102)
+                 772 kB: adbd (pid 114)
+                 693 kB: keystore (pid 108)
+                 655 kB: rild (pid 104)
+                 598 kB: /init (pid 1)
+                 583 kB: gatekeeperd (pid 112)
+                 504 kB: healthd (pid 253)
+                 482 kB: sh (pid 1608)
+                 474 kB: sh (pid 101)
+                 418 kB: logcat (pid 1623)
+                 404 kB: installd (pid 107)
+                 390 kB: logcat (pid 1842)
+                 386 kB: ueventd (pid 64)
+                 368 kB: perfprofd (pid 113)
+                 324 kB: lmkd (pid 255)
+                 316 kB: debuggerd (pid 103)
+                 310 kB: servicemanager (pid 256)
+                 259 kB: vinput (pid 258)
+                 257 kB: vinput_seamless (pid 259)
+                 256 kB: logwrapper (pid 100)
+                 255 kB: local_gps (pid 261)
+                 255 kB: local_camera (pid 262)
+                 255 kB: local_camera (pid 263)
+    57137 kB: System
+               57137 kB: system (pid 540)
+    68240 kB: Persistent
+               50192 kB: com.android.systemui (pid 638)
+               18048 kB: com.android.phone (pid 883)
+    32875 kB: Foreground
+               32875 kB: com.movie.movieticketbooking (pid 1733 / activities)
+     4153 kB: Visible
+                4153 kB: com.android.smspush (pid 1071)
+    10398 kB: Perceptible
+               10398 kB: com.android.inputmethod.latin (pid 855)
+    25730 kB: Home
+               25730 kB: com.android.launcher3 (pid 892 / activities)
+    70005 kB: Cached
+               22538 kB: com.google.samples.apps.iosched (pid 1559)
+               11147 kB: android.process.acore (pid 942)
+                7069 kB: com.android.deskclock (pid 1035)
+                6266 kB: com.android.gallery3d (pid 1499)
+                4811 kB: com.android.defcontainer (pid 1475)
+                4723 kB: com.android.quicksearchbox (pid 1538)
+                4697 kB: com.android.musicfx (pid 1426)
+                4676 kB: com.android.keychain (pid 1695)
+                4078 kB: com.svox.pico (pid 1525)
+
+Total PSS by category:
+   103572 kB: Native
+    57816 kB: Dalvik
+    40313 kB: .so mmap
+    37012 kB: .dex mmap
+    32715 kB: .oat mmap
+    19286 kB: .art mmap
+    15600 kB: Ashmem
+     9157 kB: .apk mmap
+     6645 kB: Dalvik Other
+     6027 kB: Unknown
+     5763 kB: Other mmap
+     4656 kB: Stack
+     1809 kB: .ttf mmap
+      100 kB: Other dev
+        0 kB: Cursor
+        0 kB: Gfx dev
+        0 kB: .jar mmap
+        0 kB: EGL mtrack
+        0 kB: GL mtrack
+        0 kB: Other mtrack
+
+Total RAM: 2052484 kB (status normal)
+ Free RAM: 1724217 kB (70005 cached pss + 255028 cached kernel + 1399184 free)
+ Used RAM: 335766 kB (270466 used pss + 65300 kernel)
+ Lost RAM: -7499 kB
+   Tuning: 96 (large 256), oom 184320 kB, restore limit 61440 kB (high-end-gfx)

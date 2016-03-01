@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="15dp"
+        android:maxLines="2"
+        android:text="LOREM IPSUM"
+        android:textColor="#231F20"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/one"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/txtTitle"
+        android:background="@color/purple"
+        android:gravity="left|center"
+        android:paddingLeft="30dp"
+        android:textColor="#ffffff"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/two"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/one"
+        android:layout_marginTop="1dp"
+        android:background="@color/purple"
+        android:gravity="left|center"
+        android:paddingLeft="30dp"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/three"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/two"
+        android:layout_marginTop="1dp"
+        android:background="@color/purple"
+        android:gravity="left|center"
+        android:paddingLeft="30dp"
+        android:textColor="#ffffff"
+        android:textSize="14sp" />
+   
+    <TextView
+        android:id="@+id/ticketbarcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="15dp"
+        android:maxLines="2"
+        android:layout_marginLeft="20dp"
+        android:text="Ticket Barcode"
+        android:layout_below="@id/three"
+        android:textColor="#231F20"
+        android:textSize="18sp"
+        />
+    
+    <com.movie.movieticketbooking.AndroidBarcodeView
+        android:id="@+id/ticketbar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/ticketbarcode"
+       
+      />
+    
+     <TextView
+        android:id="@+id/coupnbarcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="15dp"
+        android:maxLines="2"
+        android:layout_marginLeft="20dp"
+        android:text="Coupon Barcode"
+        android:layout_below="@id/ticketbar"
+        android:textColor="#231F20"
+        android:textSize="18sp"
+     />
+    
+    <ImageView
+        android:id="@+id/coupon"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/coupnbarcode"
+        android:background="@android:color/black"
+       
+      />
+
+
+
+  
+
+</RelativeLayout>

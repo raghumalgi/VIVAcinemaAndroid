@@ -1,0 +1,21 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center"
+              android:background="@drawable/selector_grey"
+            android:orientation="vertical"
+            >
+            
+    
+<com.movie.movieticketbooking.utils.LiberationRegular
+    android:id="@+id/txt_details"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+  
+    android:gravity="left|center"
+    android:paddingLeft="24dp"
+    android:textColor="#ffffff"
+    android:textSize="16sp"
+    android:textStyle="bold" />
+
+</LinearLayout>

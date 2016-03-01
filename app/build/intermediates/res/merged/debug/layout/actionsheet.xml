@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:weightSum="1"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:id="@+id/di"
+        android:gravity="top" />
+
+        <RelativeLayout
+            android:id="@+id/rlActionSheet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_alignParentBottom="true"
+            android:background="#000000" >
+
+            <com.movie.movieticketbooking.utils.LiberationRegular
+                android:id="@+id/terms"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:text="@string/terms"
+                android:textColor="@color/red"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <com.movie.movieticketbooking.utils.LiberationRegular
+                android:id="@+id/contactus"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/terms"
+                android:layout_marginTop="2dp"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:text="Contact Us"
+                android:textColor="@color/red"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <com.movie.movieticketbooking.utils.LiberationRegular
+                android:id="@+id/find"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/contactus"
+                android:layout_marginTop="2dp"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:text="Find Movies"
+                android:textColor="@color/red"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <com.movie.movieticketbooking.utils.LiberationRegular
+                android:id="@+id/homescreen"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/find"
+                android:layout_marginTop="2dp"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:text="Home Screen"
+                android:textColor="@color/red"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <com.movie.movieticketbooking.utils.LiberationRegular
+                android:id="@+id/mytkts"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/homescreen"
+                android:layout_marginTop="2dp"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:text="My Tickets"
+                android:textColor="@color/red"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <com.movie.movieticketbooking.utils.LiberationRegular
+                android:id="@+id/login"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/mytkts"
+                android:layout_marginTop="2dp"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:text="Login"
+                android:textColor="@color/red"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+           <!--  <View
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"
+                android:layout_below="@+id/tvCancel" /> -->
+        
+    </RelativeLayout>
+
+</LinearLayout>

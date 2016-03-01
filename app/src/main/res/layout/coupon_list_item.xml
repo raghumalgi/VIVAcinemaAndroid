@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/first_coupon"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/txtTitle"
+        android:background="@color/purple"
+        android:gravity="left|center"
+        android:paddingLeft="30dp"
+        android:text="VIVA Combo Box"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:visibility="visible" />
+
+    <RelativeLayout 
+    android:layout_width="70dp"
+    android:layout_height="48dp"
+      android:layout_alignParentRight="true"
+       android:background="@color/red"
+    android:orientation="vertical" >
+    
+    <ImageView
+        android:id="@+id/first_close"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/delete"
+       android:layout_centerInParent="true"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:visibility="visible" />
+</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,287 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white">
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+            android:id="@+id/progress_ll"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <com.movie.movieticketbooking.ProgressWheel
+                android:id="@+id/progress"
+                android:layout_width="40dp"
+                wheel:matProg_barColor="@android:color/holo_blue_dark"
+        		wheel:matProg_progressIndeterminate="true"
+                android:layout_height="40dp" />
+        </LinearLayout>
+    <com.movie.movieticketbooking.utils.LiberationRegular
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="24dp"
+        android:maxLines="2"
+        android:text=""
+        android:textColor="#231F20"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <com.movie.movieticketbooking.utils.LiberationRegular
+        android:id="@+id/one"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/txtTitle"
+        android:background="@color/purple"
+        android:drawableRight="@drawable/select"
+        android:gravity="left|center"
+        android:paddingLeft="24dip"
+        android:paddingRight="15dip"
+        android:textColor="#ffffff"
+        android:textSize="14sp" />
+
+    <com.movie.movieticketbooking.utils.LiberationRegular
+        android:id="@+id/two"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/one"
+        android:layout_marginTop="1dp"
+        android:background="@color/purple"
+        android:drawableRight="@drawable/select"
+        android:gravity="left|center"
+        android:paddingLeft="24dp"
+        android:paddingRight="15dip"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <com.movie.movieticketbooking.utils.LiberationRegular
+        android:id="@+id/three"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/two"
+        android:layout_marginTop="1dp"
+        android:background="@color/purple"
+        android:drawableRight="@drawable/select"
+        android:gravity="left|center"
+        android:paddingLeft="24dp"
+        android:paddingRight="15dip"
+        android:textColor="#ffffff"
+        android:textSize="14sp" />
+
+ 
+
+    <com.movie.movieticketbooking.utils.LiberationRegular
+        android:id="@+id/four"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/three"
+        android:layout_marginTop="1dp"
+        android:background="@color/purple"
+        android:gravity="left|center"
+        android:paddingLeft="24dp"
+        android:paddingRight="10dp"
+          android:drawablePadding="8dp"
+        android:textColor="#ffffff"
+        android:drawableLeft="@drawable/seatwhite"
+        android:textSize="14sp" />
+
+    <com.movie.movieticketbooking.utils.LiberationRegular
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/four"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="16dp"
+        android:gravity="left|center"
+        android:text="Please select card type"
+        android:textColor="#231F20"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:id="@+id/pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <com.movie.movieticketbooking.utils.LiberationRegular
+                android:id="@+id/debit"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:background="#E6E7E8"
+                android:paddingLeft="24dp"
+                 android:gravity="center_vertical"
+                android:text="Debit Card"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/debit_tick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="15dp"
+                android:visibility="gone"
+                android:src="@drawable/select" />
+            
+             </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="48dp" 
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <com.movie.movieticketbooking.utils.LiberationRegular
+                    android:id="@+id/credit"
+                    android:layout_width="match_parent"
+                    android:layout_height="58dp"
+                    android:layout_weight="1"
+                   android:paddingLeft="24dp"
+                   android:gravity="center_vertical"
+                    android:background="@color/red"
+                    android:text="Credit Card"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp" />
+
+                <ImageView
+                          android:id="@+id/credit_tick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:paddingRight="15dp"
+                    android:src="@drawable/select" />
+            </RelativeLayout>
+          
+       
+    </LinearLayout>
+48dp
+    <com.movie.movieticketbooking.utils.LiberationRegular
+        android:id="@+id/auth_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/pay"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="16dp"
+        android:gravity="left|center"
+        android:text="Please select authentication"
+        android:textColor="#231F20"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:id="@+id/auth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/auth_txt"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical" >
+
+        <com.movie.movieticketbooking.utils.LiberationRegular
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_weight="1"
+            android:background="@color/red"
+            android:text="Login"
+             android:paddingLeft="24dp"
+              android:gravity="center_vertical"
+            android:drawableRight="@drawable/arrow"
+            android:paddingRight="15dp"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <com.movie.movieticketbooking.utils.LiberationRegular
+            android:id="@+id/guest"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_weight="1"
+               android:paddingLeft="24dp"
+              android:gravity="center_vertical"
+          android:layout_marginTop="1dp"
+            android:background="@color/red"
+            android:text="Guest"
+               android:drawableRight="@drawable/arrow"
+            android:paddingRight="15dp"
+         
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <com.movie.movieticketbooking.utils.LiberationRegular
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/auth"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:text=""
+        android:textSize="14sp" />
+
+    <com.movie.movieticketbooking.utils.LiberationRegular
+        android:id="@+id/textView1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/auth"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="right"
+        android:text=""
+        android:textSize="14sp" />
+
+    <com.movie.movieticketbooking.utils.LiberationRegular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt"
+        android:layout_alignBottom="@+id/txt"
+        android:layout_alignRight="@+id/textView1"
+        android:background="@drawable/card"
+        android:gravity="right|center"
+        android:textStyle="bold" />
+
+    <com.movie.movieticketbooking.utils.LiberationRegular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/auth_txt"
+        android:layout_alignBottom="@+id/auth_txt"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/lock"
+        android:gravity="right|center"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+
+<!-- <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+            android:layout_marginBottom="60dp"
+       android:layout_marginLeft="5dp"
+        android:onClick="backClicked"
+        android:src="@drawable/back" /> -->
+
+
+</FrameLayout>

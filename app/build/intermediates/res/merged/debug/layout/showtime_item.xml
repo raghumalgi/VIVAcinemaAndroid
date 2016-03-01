@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pink_menu_bar_hover"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:padding="5.0dip"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:id="@+id/lytTimeView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cinema_address_bar"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="5dp" />
+
+</LinearLayout>

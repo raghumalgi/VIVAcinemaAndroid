@@ -1,0 +1,326 @@
+[
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/aboutus.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/aboutus.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/seat_selection.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/seat_selection.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/showtime_item.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/showtime_item.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/show_time.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/show_time.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/movie_item_times.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/movie_item_times.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/contact_us.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/contact_us.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/account.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/account.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/coupon.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/coupon.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/booking_history.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/booking_history.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/movie_grid.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/movie_grid.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/theatre_list.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/theatre_list.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/header.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/header.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/splash.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/splash.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/youtube.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/youtube.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/list_item_schedule_header.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/list_item_schedule_header.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/final_login_details.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/final_login_details.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/bottom_view.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/bottom_view.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/tab1.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/tab1.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/info.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/info.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/theatres.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/theatres.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/custom_dialog.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/select_category.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/select_category.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/seat_selection_new.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/seat_selection_new.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/guset_login.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/guset_login.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/fragment_webview_with_spinner.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/fragment_webview_with_spinner.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/find_movie.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/find_movie.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/order_summary.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/order_summary.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/theate_list.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/theate_list.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/booking_items.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/booking_items.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/now_playing.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/now_playing.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/abc_simple_dropdown_hint.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_simple_dropdown_hint.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/movie_list_frag.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/movie_list_frag.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/actionsheet.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/actionsheet.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/movie_item_showtimes.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/movie_item_showtimes.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/list_item_schedule_details.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/list_item_schedule_details.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/tick_mark.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/tick_mark.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/movielist.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/movielist.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/fullscreen_demo.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/fullscreen_demo.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/movie_details.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/movie_details.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_include.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_activity_chooser_view_include.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/final_details.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/final_details.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/register.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/register.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/tool_bar.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/tool_bar.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/more.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/more.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/movies.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/movies.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/ticketdetails.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/ticketdetails.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/terms.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/terms.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/row_item_nav.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/row_item_nav.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/top_bar.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/top_bar.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/forgot_password.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/forgot_password.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/appbar.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/appbar.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/coupon_list_item.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/coupon_list_item.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/drawer_list_item.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/drawer_list_item.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/theatre_list_timings.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/theatre_list_timings.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/movie_item_grid.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/movie_item_grid.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/show_time_list.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/show_time_list.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/renderer_rss_header.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/renderer_rss_header.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/custom_spiiner.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/src/main/res/layout/custom_spiiner.xml"
+    },
+    {
+        "merged": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/raghavendramalgi/StudioProjects/VIVAcinema/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_search_view.xml"
+    }
+]

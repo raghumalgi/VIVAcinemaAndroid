@@ -1,0 +1,190 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <com.movie.movieticketbooking.utils.LiberationRegular
+        android:id="@+id/booking"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="1dp"
+        android:background="@color/red"
+        android:drawableRight="@drawable/arrow"
+        android:gravity="center_vertical"
+        android:paddingLeft="24dp"
+        android:paddingRight="20dp"
+        android:text="CONTINUE BOOKING"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <com.movie.movieticketbooking.utils.LiberationRegular
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="15dp"
+        android:maxLines="2"
+        android:text="How about some discount?"
+        android:textColor="#231F20"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/txtTitle"
+        android:orientation="vertical" >
+        
+         <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+         android:background="@color/purple"
+           android:visibility="gone"
+            android:id="@+id/textcount"
+        android:orientation="vertical" >
+        
+         <TextView
+        android:id="@+id/textViewOfferCount"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/white_circle"
+        android:clickable="true"
+        android:text="3"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/first_coupon"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+           
+            android:layout_toRightOf="@id/textViewOfferCount"
+            android:gravity="left|center"
+            android:paddingLeft="15dp"
+            android:text="VIVA Combo Box"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:visibility="visible" />
+</RelativeLayout>
+        <RelativeLayout
+            android:layout_width="70dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:background="@color/red"
+            android:visibility="gone"
+            android:id="@+id/close"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/first_close"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/delete"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:visibility="visible" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!--
+          <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="18dp"
+        android:cacheColorHint="@android:color/transparent"
+        android:layout_below="@id/txtTitle"
+        android:divider="#ffffff"
+        android:dividerHeight="1dp" />
+    -->
+
+    <com.movie.movieticketbooking.utils.LiberationRegular
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/relative"
+        android:layout_marginBottom="14dp"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:text="You can select upto 2 coupons"
+        android:textColor="#939598"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_below="@+id/txt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="58dp"
+        android:layout_marginRight="58dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:background="#E6E7E8"
+            android:padding="5dp" />
+
+        <LinearLayout
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="14dp"
+            android:background="#FFFFFF"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <com.movie.movieticketbooking.utils.LiberationRegular
+            android:id="@+id/couponDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="14dp"
+            android:text="Select me, to pay discounted BD1.2 for your popcorn and soft drink."
+            android:textColor="#231F20"
+            android:textSize="15sp" />
+
+        <com.movie.movieticketbooking.utils.LiberationRegular
+            android:id="@+id/select"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:background="@color/red"
+            android:gravity="center"
+            android:text="SELECT"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+   <!--  <TextView
+        android:id="@+id/textViewOfferCount"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/txt"
+        android:layout_marginRight="44dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/circle"
+        android:clickable="true"
+        android:gravity="center"
+        android:textColor="@android:color/white" /> -->
+
+</RelativeLayout>

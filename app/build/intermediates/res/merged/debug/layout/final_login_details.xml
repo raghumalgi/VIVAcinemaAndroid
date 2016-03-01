@@ -1,0 +1,237 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+    
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+    
+     <LinearLayout
+            android:id="@+id/progress_ll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <com.movie.movieticketbooking.ProgressWheel
+                android:id="@+id/progress"
+                android:layout_width="40dp"
+                wheel:matProg_barColor="@android:color/holo_blue_dark"
+        		wheel:matProg_progressIndeterminate="true"
+                android:layout_height="40dp" />
+        </LinearLayout>
+         
+
+<RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        
+    
+<!-- <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+     xmlns:fab="http://schemas.android.com/apk/res-auto"
+      xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical" > -->
+
+    
+    
+        
+     
+
+        <com.movie.movieticketbooking.utils.LiberationRegular
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:maxLines="2"
+            android:text=""
+            android:layout_marginLeft="24dp"
+            android:textColor="#231F20"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <com.movie.movieticketbooking.utils.LiberationRegular
+            android:id="@+id/one"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@id/txtTitle"
+            android:background="@color/purple"
+            android:drawableRight="@drawable/select"
+            android:gravity="left|center"
+            android:paddingLeft="24dp"
+            android:paddingRight="15dip"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <com.movie.movieticketbooking.utils.LiberationRegular
+            android:id="@+id/two"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/one"
+            android:layout_marginTop="1dp"
+            android:background="@color/purple"
+            android:drawableRight="@drawable/select"
+            android:gravity="left|center"
+            android:paddingLeft="24dp"
+            android:paddingRight="15dip"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <com.movie.movieticketbooking.utils.LiberationRegular
+            android:id="@+id/three"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/two"
+            android:layout_marginTop="1dp"
+            android:background="@color/purple"
+            android:drawableRight="@drawable/select"
+            android:gravity="left|center"
+            android:paddingLeft="24dp"
+            android:paddingRight="15dip"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+           <com.movie.movieticketbooking.utils.LiberationRegular
+        android:id="@+id/credit_card"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/three"
+        android:layout_marginTop="1dp"
+        android:background="@color/purple"
+        android:drawableRight="@drawable/select"
+        android:gravity="left|center"
+        android:paddingLeft="24dp"
+        android:paddingRight="15dip"
+        android:text="Credit Card"
+        android:textColor="#ffffff"
+        android:textSize="14sp" />
+        <com.movie.movieticketbooking.utils.LiberationRegular
+            android:id="@+id/four"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/credit_card"
+            android:layout_marginTop="1dp"
+            android:background="@color/purple"
+            android:gravity="left|center"
+            android:paddingLeft="24dp"
+            android:text="BD 6.6"
+            android:textColor="#ffffff"
+            android:drawablePadding="8dp"
+            android:drawableLeft="@drawable/seatwhite"
+            android:paddingRight="10dp"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/four"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical" >
+
+            <com.movie.movieticketbooking.utils.LiberationRegular
+                android:id="@+id/un"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="24dp"
+                android:text="Username"
+                android:textColor="#231F20"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etUn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="10dp"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:text=""
+                android:textColor="#231F20"
+                android:textSize="14sp" />
+
+            <com.movie.movieticketbooking.utils.LiberationRegular
+                android:id="@+id/pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="24dp"
+                android:text="Password"
+                android:textColor="#231F20"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="10dp"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:text=""
+                android:textColor="#231F20"
+                android:textSize="14sp" />
+
+            <com.movie.movieticketbooking.utils.LiberationRegular
+                android:id="@+id/mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="24dp"
+                
+                android:layout_marginTop="24dp"
+                android:text="Mobile No."
+                android:textColor="#231F20"
+               
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:text=""
+                android:ems="1"
+                 android:singleLine="true"
+                android:textColor="#231F20"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <com.movie.movieticketbooking.utils.LiberationRegular
+            android:id="@+id/purchase"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/red"
+            android:paddingLeft="24dp"
+            android:paddingRight="20dp"
+            android:gravity="center_vertical"
+            android:drawableRight="@drawable/arrow"
+            android:text="PURCHASE TICKETS"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+    </RelativeLayout>
+</LinearLayout>
+
+<!-- <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+           android:layout_marginBottom="30dp"
+       android:layout_marginLeft="15dp"
+        android:onClick="backClicked"
+        android:src="@drawable/back" /> -->
+</FrameLayout>

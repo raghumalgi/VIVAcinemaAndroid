@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dip"
+    android:background="@drawable/top_bar"
+    >
+
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center"
+        android:background="@drawable/back_bt"
+        android:clickable="true"
+        android:gravity="center"
+        android:visibility="visible" />
+
+    
+
+    <TextView
+        android:id="@+id/title_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="Title"
+        android:textColor="@android:color/white"
+        android:textSize="15.0sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+     <Button
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center"
+        android:background="@drawable/location_bg"
+        android:clickable="true"
+        android:text="Select Mall"
+        android:gravity="center"
+        android:paddingLeft="4dip"
+        android:paddingRight="4dip"
+        android:visibility="visible" />
+    <RelativeLayout
+        android:id="@+id/lytRegion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center"
+        android:layout_marginRight="2.0dip"
+        android:visibility="visible" >
+
+      
+        
+    </RelativeLayout>
+
+</FrameLayout>
