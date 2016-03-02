@@ -11,6 +11,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -28,6 +30,8 @@ import com.movie.movieticketbooking.models.ScreenDetail;
 import com.movie.movieticketbooking.utils.MovieParams;
 import com.movie.movieticketbooking.vos.MovieItems;
 
+import static com.movie.movieticketbooking.R.color.purple;
+
 @TargetApi(Build.VERSION_CODES.HONEYCOMB)
 public class TheatreListActivityNew extends BaseActivity {
 	private NetworkTask<Void, Void, List<ScreenDetail>> fetchTask;
@@ -43,6 +47,9 @@ public class TheatreListActivityNew extends BaseActivity {
 		super.onCreate(savedInstanceState);
 		//setContentView(R.layout.theatre_list);
 		getLayoutInflater().inflate(R.layout.theatre_list, frameLayout);
+
+
+
 		SampleModel.getInstance().activities_nav.add(TheatreListActivityNew.this);
 		//activity = this;
 		progressLayout = (LinearLayout) findViewById(R.id.progress_ll);

@@ -5,6 +5,12 @@
     android:layout_height="match_parent"
     android:background="@android:color/white" >
 
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        android:orientation="vertical" >
+
 <RelativeLayout 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -138,6 +144,7 @@
      
      </LinearLayout>
 </RelativeLayout>
+    </ScrollView>
 <!--  <ImageView
         android:id="@+id/back"
         android:layout_width="wrap_content"

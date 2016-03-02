@@ -1,6 +1,7 @@
 package com.movie.movieticketbooking.activities;
 
 import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 
 import com.movie.movieticketbooking.R;
@@ -234,7 +235,19 @@ public class UserRegistrationActivity extends Activity {
      protected Dialog onCreateDialog(int id) {
         // TODO Auto-generated method stub
         if (id == 999) {
-           return new DatePickerDialog(this, myDateListener, year, month, day);
+			DatePickerDialog picker = new DatePickerDialog(this, myDateListener, year, month, day);
+			Calendar cal = Calendar.getInstance();
+			Date today = cal.getTime();
+			//Date prevYear = cal.getTime();
+			int month = cal.get(Calendar.MONTH);
+			int day = cal.get(Calendar.DAY_OF_MONTH);
+			cal.add(Calendar.YEAR, -10); // to get previous year add -1
+
+			//picker.getDatePicker().setMinDate(cal.getTimeInMillis());
+			picker.getDatePicker().setMaxDate(cal.getTimeInMillis());
+
+
+           return picker;
         }
         return null;
      }

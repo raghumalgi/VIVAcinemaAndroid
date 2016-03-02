@@ -54,6 +54,7 @@
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
     <color name="purple">#844399</color>
+    <color name="purple_status">#BA68C8</color>
     <color name="red">#DD0D7E</color>
     <color name="ripple_material_dark">#40ffffff</color>
     <color name="ripple_material_light">#40000000</color>

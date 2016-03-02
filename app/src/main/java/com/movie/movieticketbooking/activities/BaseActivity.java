@@ -11,6 +11,7 @@ import com.nostra13.universalimageloader.core.assist.ImageScaleType;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
@@ -18,6 +19,8 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
@@ -25,6 +28,8 @@ import android.widget.FrameLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import static com.movie.movieticketbooking.R.color.purple;
 
 /**
  * @author dipenp
@@ -80,12 +85,19 @@ public class BaseActivity extends ActionBarActivity {
  private ActionBarDrawerToggle actionBarDrawerToggle;
 
 private Toolbar toolbar;
- 
- 
- @Override
+    private CinemaAdress adapter;
+
+
+    @Override
  protected void onCreate(Bundle savedInstanceState) {
   super.onCreate(savedInstanceState);
   setContentView(R.layout.activity_main);
+     Window window = getWindow();
+     window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+     window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+         window.setStatusBarColor(getResources().getColor(purple));
+     }
   initOptions();
   
   toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -106,14 +118,20 @@ private Toolbar toolbar;
   //mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
       
   // set up the drawer's list view with items and click listener
+     adapter = new CinemaAdress(this, listArray);
   mDrawerList.setAdapter(new CinemaAdress(this, listArray));
   mDrawerList.setOnItemClickListener(new OnItemClickListener() {
 
    @Override
    public void onItemClick(AdapterView<?> parent, View view,
      int position, long id) {
-    
-    openActivity(position);
+       String userId  = SampleModel.getInstance().getCurrentUserId();
+       if(userId!=null) {
+
+           openActivityWhenLoggedIn(position);
+       }else{
+           openActivity(position);
+       }
    }
   });
   
@@ -154,12 +172,24 @@ private Toolbar toolbar;
      *In this case this base activity will always be call when any child activity will launch.
      */
    isLaunch = false;
+
    openActivity(3);
   }
  }
- 
- 
- private void initOptions() {
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        String userId  = SampleModel.getInstance().getCurrentUserId();
+        if(userId!=null){
+            listArray = new String[]{ "My Account","My Tickets", "Home Screen", "Find Movies", "Contact Us","Terms & Conditions" };
+                adapter.notifyDataSetChanged();
+        }
+
+    }
+
+    private void initOptions() {
 		options = new DisplayImageOptions.Builder()
 		.showStubImage(android.R.drawable.gallery_thumb)
 		.showImageForEmptyUri(android.R.drawable.gallery_thumb)
@@ -230,6 +260,57 @@ private Toolbar toolbar;
   
  }
 
+    protected void openActivityWhenLoggedIn(int position) {
+
+        /**
+         * We can set title & itemChecked here but as this BaseActivity is parent for other activity,
+         * So whenever any activity is going to launch this BaseActivity is also going to be called and
+         * it will reset this value because of initialization in onCreate method.
+         * So that we are setting this in child activity.
+         */
+//  mDrawerList.setItemChecked(position, true);
+//  setTitle(listArray[position]);
+        mDrawerLayout.closeDrawer(mDrawerList);
+        BaseActivity.position = position; //Setting currently selected position in this field so that it will be available in our child activities.
+
+        switch (position) {
+            case 0:
+                Intent intent = new Intent(this,UserLoginActivity.class);
+                startActivity(intent);
+                //startActivity(new Intent(this, Item1Activity.class));
+                break;
+            case 1:
+                String userId  = SampleModel.getInstance().getCurrentUserId();
+                if(userId==null){
+                    Toast.makeText(BaseActivity.this, "Please login to see your ticket details ", Toast.LENGTH_SHORT).show();
+                }else{
+                    startActivity(new Intent(this, MyTickets.class));
+                }
+                break;
+            case 2:
+                // startActivity(new Intent(this, MovieGridActivity.class));
+                SampleModel.getInstance().clearNavigationActivities();;
+                finish();
+                break;
+            case 3:
+                Intent findMovies = new Intent(this, FindMoviesActivity.class);
+                startActivity(findMovies);
+
+                break;
+            case 4:
+
+                startActivity(new Intent(this, ContactUsActivity.class));
+                break;
+            case 5:
+                startActivity(new Intent(this, TermsActivity.class));
+                break;
+
+            default:
+                break;
+        }
+
+    }
+
 /* @Override
  public boolean onCreateOptionsMenu(Menu menu) {
 
@@ -279,12 +360,17 @@ private Toolbar toolbar;
 		private Context context;
 
 		public CinemaAdress(Context context, String[] objects) {
-			super(context, 0, objects);
+			super(context, 0, listArray);
 			this.context = context;
 
 		}
 
-		@Override
+     @Override
+     public int getCount() {
+         return listArray.length;
+     }
+
+     @Override
 		public View getView(int position, View convertView, ViewGroup parent) {
 			Holder holder = null;
 			if (convertView == null) {
