@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 public class AboutUsActivity extends Activity {
+	//INtent with four spaces
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
